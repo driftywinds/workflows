@@ -26,8 +26,8 @@ env:
   UPSTREAM_URL: https://github.com/LaWebcapsule/d9
   IMAGE_NAME: driftywinds/d9
   # GHCR is always pushed to (it is also the source of truth for the version check).
-  PUSH_TO_DOCKERHUB: 'true'
-  PUSH_TO_QUAY: 'true'
+  PUSH_TO_DOCKERHUB: 'false'
+  PUSH_TO_QUAY: 'false'
 
 jobs:
   check-version:
