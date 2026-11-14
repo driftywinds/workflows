@@ -1,4 +1,4 @@
-name: Build and Push d9 (auto-update)
+name: Build and Push telestremio (auto-update)
 
 on:
   schedule:
